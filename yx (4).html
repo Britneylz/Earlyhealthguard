@@ -1,0 +1,1630 @@
+<!DOCTYPEhtml>
+<html lang="id">
+
+<h1 style="text-align: center; color: #2c3e50;">Penilaian Risiko Kanker Payudara</h1>
+<div id="BreastCancerRA_Form" style="max-width: 800px; margin: auto; padding: 20px; border: 1px solid #bdc3c7; border-radius: 10px; background-color: #ecf0f1;">
+   <p class="Intro" style="font-size: 16px; line-height: 1.5; margin-bottom: 20px; text-align: justify;">
+    Kanker payudara merupakan kanker yang paling sering didiagnosis pada wanita selain kanker kulit.
+</p>
+
+    <p class="Intro" style="font-size: 16px; line-height: 1.5; margin-bottom: 20px; text-align: justify;">
+    Penilaian singkat ini akan membantu Anda mengetahui apakah Anda memiliki faktor risiko yang mungkin meningkatkan risiko kanker payudara Anda.</p>
+
+    <p class="Intro" style="font-size: 16px; line-height: 1.5; margin-bottom: 20px;">
+        Kuisioner ini tidak ditujukan untuk wanita yang pernah atau pernah menderita kanker payudara.
+    </p>
+    <div class="CalculatorBox RiskAssessmentBox" id="BreastCancerRA_Questions" style="margin-top: 20px;">
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_Age" style="display: block; font-weight: bold; margin-bottom: 5px;">1. Berapakah umur anda</label>
+            <input id="BreastCancerRA_Age" maxlength="3" name="BreastCancerRA_Age" style="width: 60px; padding: 5px; border-radius: 5px; border: 1px solid #bdc3c7;" type="text" />
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_Eth" style="display: block; font-weight: bold; margin-bottom: 5px;">2. Apa kelompok etnis Anda?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Eth_AA" name="BreastCancerRA_Eth" type="radio" value="AA" style="margin-right: 10px;" />
+                <span class="AnswerText">Afrika-Amerika</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Eth_AS" name="BreastCancerRA_Eth" type="radio" value="AS" style="margin-right: 10px;" />
+                <span class="AnswerText">Asia</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Eth_CC" name="BreastCancerRA_Eth" type="radio" value="CC" style="margin-right: 10px;" />
+                <span class="AnswerText">Kaukasia</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Eth_HI" name="BreastCancerRA_Eth" type="radio" value="HI" style="margin-right: 10px;" />
+                <span class="AnswerText">Hispanik</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Eth_OT" name="BreastCancerRA_Eth" type="radio" value="OT" style="margin-right: 10px;" />
+                <span class="AnswerText">Lainnya</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_Weight" style="display: block; font-weight: bold; margin-bottom: 5px;">3. Berapa berat badan Anda?</label>
+            <input id="BreastCancerRA_Weight" maxlength="3" name="BreastCancerRA_Weight" style="width: 60px; padding: 5px; border-radius: 5px; border: 1px solid #bdc3c7;" type="text" />
+            <span class="Unit" style="margin-left: 5px;">pon.</span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_Height_Feet" style="display: block; font-weight: bold; margin-bottom: 5px;">4. Berapa tinggi badan Anda?</label>
+            <input id="BreastCancerRA_Height_Feet" maxlength="2" name="BreastCancerRA_Height_Feet" style="width: 60px; padding: 5px; border-radius: 5px; border: 1px solid #bdc3c7;" type="text" />
+            <span class="Unit">Kaki</span>
+            <input id="BreastCancerRA_Height_Inches" maxlength="2" name="BreastCancerRA_Height_Inches" style="width: 60px; padding: 5px; border-radius: 5px; border: 1px solid #bdc3c7; margin-left: 10px;" type="text" />
+            <span class="Unit">Inci</span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_Menarche" style="display: block; font-weight: bold; margin-bottom: 5px;">5. Pada usia berapa Anda pertama kali mendapat menstruasi?</label>
+            <input id="BreastCancerRA_Menarche" maxlength="3" name="BreastCancerRA_Menarche" style="width: 60px; padding: 5px; border-radius: 5px; border: 1px solid #bdc3c7;" type="text" />
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_Menopause" style="display: block; font-weight: bold; margin-bottom: 5px;">6. Jika Anda sudah melewati masa menopause, berapa usia Anda saat menopause dimulai?</label>
+            <input id="BreastCancerRA_Menopause" maxlength="3" name="BreastCancerRA_Menopause" style="width: 60px; padding: 5px; border-radius: 5px; border: 1px solid #bdc3c7;" type="text" />
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_Children" style="display: block; font-weight: bold; margin-bottom: 5px;">7. Apakah Anda mempunyai satu anak atau lebih?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Children_Y" name="BreastCancerRA_Children" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Children_N" name="BreastCancerRA_Children" onclick="clearChildbirthAge();" type="radio" value="N" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_ChildbirthAge" style="display: block; font-weight: bold; margin-bottom: 5px;">8. Jika Anda sudah mempunyai anak, berapa umur Anda saat anak pertama Anda lahir?</label>
+            <input id="BreastCancerRA_ChildbirthAge" maxlength="3" name="BreastCancerRA_ChildbirthAge" style="width: 60px; padding: 5px; border-radius: 5px; border: 1px solid #bdc3c7;" />
+        </div>
+        
+            <label class="QuestionText" for="BreastCancerRA_Alcohol" style="display: block; font-weight: bold; margin-bottom: 5px;">9. Apakah Anda minum lebih dari satu minuman beralkohol sehari?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Alcohol_Y" name="BreastCancerRA_Alcohol" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Alcohol_N" name="BreastCancerRA_Alcohol" type="radio" value="N" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_Smoking" style="display: block; font-weight: bold; margin-bottom: 5px;">10. Apakah Anda merokok?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Smoking_Y" name="BreastCancerRA_Smoking" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Smoking_N" name="BreastCancerRA_Smoking" type="radio" value="N" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_FamilyHistory" style="display: block; font-weight: bold; margin-bottom: 5px;">11. Jika ada wanita di keluarga Anda yang menderita kanker payudara, periksalah hubungannya Anda (centang semua yang sesuai)</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input class="Checkbox" id="BreastCancerRA_Mother" name="BreastCancerRA_Mother" onclick="clearCheckBoxes(new Array('NoHistory'));" type="checkbox" value="on" style="margin-right: 10px;" />
+                <span class="AnswerText">Ibu</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input class="Checkbox" id="BreastCancerRA_Daughter" name="BreastCancerRA_Daughter" onclick="clearCheckBoxes(new Array('NoHistory'));" type="checkbox" value="on" style="margin-right: 10px;" />
+                <span class="AnswerText">Putri</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input class="Checkbox" id="BreastCancerRA_Sister" name="BreastCancerRA_Sister" onclick="clearCheckBoxes(Array baru('NoHistory'));" type="checkbox" value="on" style="margin-right: 10px;" />
+                <span class="AnswerText">Kakak</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input class="Checkbox" id="BreastCancerRA_Aunt" name="BreastCancerRA_Aunt" onclick="clearCheckBoxes(new Array('NoHistory'));" type="checkbox" value="on" style="margin-right: 10px;" />
+                <span class="AnswerText">Bibi (saudara perempuan ibu atau ayah)</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input class="Checkbox" id="BreastCancerRA_Grandmother" name="BreastCancerRA_Grandmother" onclick="clearCheckBoxes(new Array('NoHistory'));" type="checkbox" value="on" style="margin-right: 10px;" />
+                <span class="AnswerText">Nenek</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input class="Checkbox" id="BreastCancerRA_NoHistory" name="BreastCancerRA_NoHistory" onclick="clearCheckBoxes(new Array('Ibu','Anak Perempuan','Adik','Bibi','Nenek'));" type="checkbox" value="on" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak ada riwayat keluarga yang mengidap kanker payudara</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_FamilyHistoryAge" style="display: block; font-weight: bold; margin-bottom: 5px;">12. Apakah ibu, saudara, atau anak Anda terdiagnosis kanker payudara sebelum usia tersebut dari 50?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_EarlyOnset_Y" name="BreastCancerRA_EarlyOnset" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_EarlyOnset_N" name="BreastCancerRA_EarlyOnset" type="radio" value="N" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_UterineCancer" style="display: block; font-weight: bold; margin-bottom: 5px;">13. Apakah Anda pernah atau sedang menderita kanker rahim?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_UterineCancer_Y" name="BreastCancerRA_UterineCancer" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_UterineCancer_N" name="BreastCancerRA_UterineCancer" type="radio" value="N" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_OvarianCancer" style="display: block; font-weight: bold; margin-bottom: 5px;">14. Apakah Anda pernah atau sedang menderita kanker ovarium?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_OvarianCancer_Y" name="BreastCancerRA_OvarianCancer" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_OvarianCancer_N" name="BreastCancerRA_OvarianCancer" type="radio" value="N" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_Genes" style="display: block; font-weight: bold; margin-bottom: 5px;">15. Pernahkah Anda diberi tahu bahwa Anda memiliki mutasi gen tertentu yang terkait dengan kanker payudara?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Genes_Y" name="BreastCancerRA_Genes" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Genes_N" name="BreastCancerRA_Genes" type="radio" value="N" style="margin-right: 
+
+10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_Dense" style="display: block; font-weight: bold; margin-bottom: 5px;">16. Apakah anda pernah melakukan mammogram dengan hasil yang menunjukkan bahwa Anda memiliki payudara yang padat?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Dense_Y" name="BreastCancerRA_Dense" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Dense_N" name="BreastCancerRA_Dense" type="radio" value="N" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_OtherDx" style="display: block; font-weight: bold; margin-bottom: 5px;">17. Apakah Anda pernah didiagnosis (centang semua yang sesuai):</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input class="Checkbox" id="BreastCancerRA_LCIS" name="BreastCancerRA_LCIS" onclick="clearCheckBoxes(Array baru('OtherDx'));" type="checkbox" value="on" style="margin-right: 10px;" />
+                <span class="AnswerText">Karsinoma lobular in situ (LCIS)</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input class="Checkbox" id="BreastCancerRA_ADH" name="BreastCancerRA_ADH" onclick="clearCheckBoxes(Array baru('OtherDx'));" type="checkbox" value="on" style="margin-right: 10px;" />
+                <span class="AnswerText">Hiperplasia duktal atipikal (ADH)</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input class="Checkbox" id="BreastCancerRA_ALH" name="BreastCancerRA_ALH" onclick="clearCheckBoxes(Array baru('OtherDx'));" type="checkbox" value="on" style="margin-right: 10px;" />
+                <span class="AnswerText">Hiperplasia lobular atipikal (ALH)</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input class="Checkbox" id="BreastCancerRA_OtherDx" name="BreastCancerRA_OtherDx" onclick="clearCheckBoxes(Array baru('LCIS','ADH','ALH'));" type="checkbox" value="on" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak ada satupun</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_Radiation" style="display: block; font-weight: bold; margin-bottom: 5px;">18. Apakah Anda pernah menjalani terapi radiasi di dada untuk mengobati jenis kanker lain?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Radiation_Y" name="BreastCancerRA_Radiation" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_Radiation_N" name="BreastCancerRA_Radiation" type="radio" value="N" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_HT" style="display: block; font-weight: bold; margin-bottom: 5px;">19. Apakah Anda sedang menjalani terapi hormon kombinasi (estrogen dan progesteron)?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_HT_Y" name="BreastCancerRA_HT" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_HT_N" name="BreastCancerRA_HT" type="radio" value="N" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_DES" style="display: block; font-weight: bold; margin-bottom: 5px;">20. Apakah Anda sudah meminum obat dietilstilbestrol (DES), ataukah ibu Anda meminumnya saat hamil denganmu?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_DES_Y" name="BreastCancerRA_DES" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_DES_N" name="BreastCancerRA_DES" type="radio" value="N" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+        <div class="Question" style="margin-bottom: 15px;">
+            <label class="QuestionText" for="BreastCancerRA_BirthControl" style="display: block; font-weight: bold; margin-bottom: 5px;">21. Apakah saat ini Anda sedang mengonsumsi alat kontrasepsi berbasis hormon, seperti pil KB?</label>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_BirthControl_Y" name="BreastCancerRA_BirthControl" type="radio" value="Y" style="margin-right: 10px;" />
+                <span class="AnswerText">Ya</span>
+            </span>
+            <span class="Option" style="display: block; margin-bottom: 5px;">
+                <input id="BreastCancerRA_BirthControl_N" name="BreastCancerRA_BirthControl" type="radio" value="N" style="margin-right: 10px;" />
+                <span class="AnswerText">Tidak</span>
+            </span>
+        </div>
+                     <div class="Button" id="BreastCancerRA_submit" style="text-align: center; margin-top: 20px;">
+    <input id="BreastCancerRA_SubmitButton" name="BreastCancerRA_SubmitButton" onclick="BreastCancerRA_Submit();" type="button" value="Kirim" 
+        style="background-color: #007bff; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;" 
+        onmouseover="this.style.backgroundColor='#0056b3';" 
+        onmouseout="this.style.backgroundColor='#007bff';" />
+</div>
+</div>
+</div>
+
+               
+
+================================================================================================================================================
+               <div class="Results" id="BreastCancerRA_Results" style="DISPLAY: none">
+                  <a id="Results"/>
+                  <div class="Button" id="BreastCancerRA_reset" style="DISPLAY: none">
+                     <input class="resubmitbutton" id="BreastCancerRA_ResetButton" name="BreastCancerRA_ResetButton" onclick="BreastCancerRA_Reset();" type="button" value="Kembali ke Form" />
+                  </div>
+                  <h2>Hasil Anda</h2>
+                  <div id="BreastCancerRA_Result_Under17About" style="DISPLAY: none">
+                     <p class="Explanation">
+                        <strong> Anda memiliki tingkat resiko yang sangat kecil karena umur anda yang masih muda.</strong>
+                     </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_Under45About" style="DISPLAY: none">
+                     <p class="Explanation">
+                        <strong>Anda memiliki tingkat resiko yang sangat kecil karena umur anda yang masih muda.</strong>
+                     </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_Over45NoRiskAbout" style="DISPLAY: none">
+                     <p class="Explanation">
+                        <strong>Karena usia Anda, risiko Anda terkena kanker payudara sedikit lebih tinggi dibandingkan dengan wanita yang lebih 					muda.</strong>
+                     </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_Over45HighAbout" style="DISPLAY: none">
+                     <p class="Explanation">
+                        <strong>Karena usia Anda, risiko Anda mengembangkan kanker payudara lebih tinggi dibandingkan ketika Anda masih muda. Namun, karena Anda memiliki faktor risiko lain (yang tercantum di bawah ini), risiko Anda bahkan lebih tinggi dibandingkan dengan orang lain dalam kelompok usia Anda.</strong>
+                     </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_Over65NoRiskAbout" style="DISPLAY: none">
+                     <p class="Explanation">
+                        <strong>Karena usia Anda, risiko Anda terkena kanker payudara lebih tinggi.</strong>
+                     </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_Over65HighAbout" style="DISPLAY: none">
+                     <p class="Explanation">
+                        <strong>Karena usia Anda, risiko Anda terkena kanker payudara lebih tinggi. Faktor risiko lain yang Anda laporkan (tercantum di bawah ini) meningkatkan risiko tersebut lebih tinggi lagi dibandingkan dengan orang seusia Anda yang tidak memiliki faktor risiko lain yang diketahui.</strong>
+                     </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_Over45GreatestRisk_NoRisk" style="DISPLAY: none">
+                     <p class="Explanation">Usia adalah faktor risiko terbesar untuk terkena kanker payudara. Anak-anak jarang mengembangkan kanker payudara. Pada rentang usia 45 hingga 65 tahun, risiko Anda terkena kanker payudara meningkat. Hal ini terutama berlaku bagi wanita yang memiliki faktor risiko lain selain usia. Menurut American Cancer Society, sekitar 2 dari 3 kasus kanker payudara invasif didiagnosis pada wanita berusia 55 tahun ke atas.
+         </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_Over45GreatestRisk_WithRisk" style="DISPLAY: none">
+                     <p class="Explanation">Usia adalah faktor risiko terbesar untuk mengembangkan kanker payudara. Anak-anak jarang mengembangkan kanker payudara. Mulai usia 45 tahun, risiko Anda mengembangkan kanker payudara meningkat, terutama jika Anda memiliki faktor risiko lain. Beberapa faktor risiko ini akan membuat Anda semakin berisiko seiring bertambahnya usia.
+         </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_Over65GreatestRisk_NoRisk" style="DISPLAY: none">
+                     <p class="Explanation">Usia adalah faktor risiko terbesar untuk mengembangkan kanker payudara. Pada usia 65 tahun atau lebih, risiko Anda terhadap kanker payudara meningkat setiap tahunnya. Menurut American Cancer Society, sekitar 2 dari 3 kasus kanker payudara invasif terjadi setelah usia 55 tahun. Jika ada faktor risiko lain, faktor-faktor tersebut menjadi semakin penting dalam menentukan risiko mengembangkan kanker payudara pada wanita yang lebih tua dari 65 tahun.
+         </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_Over65GreatestRisk_WithRisk" style="DISPLAY: none">
+                     <p class="Explanation">Usia adalah faktor risiko terbesar untuk mengembangkan kanker payudara. Pada usia 65 tahun atau lebih, risiko Anda terhadap kanker payudara meningkat setiap tahunnya. Menurut American Cancer Society, sekitar 2 dari 3 kasus kanker payudara invasif terjadi setelah usia 55 tahun. Faktor risiko lainnya menjadi semakin penting dalam menentukan risiko mengembangkan kanker payudara pada wanita yang lebih tua dari 65 tahun.
+         </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_AgeFactor_16" style="DISPLAY: none">
+                     <p class="Explanation">Karena usia Anda masih di bawah 17 tahun, risiko Anda mengembangkan kanker payudara saat ini hampir tidak ada, meskipun Anda memiliki faktor risiko lain (tercantum di bawah ini). Faktor risiko apa pun yang Anda miliki akan membuat risiko Anda terhadap kanker payudara semakin tinggi seiring bertambahnya usia.
+         </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_AgeFactor_44" style="DISPLAY: none">
+                     <p class="Explanation">Karena Anda belum berusia 45 tahun, risiko Anda mengembangkan kanker payudara saat ini rendah, meskipun Anda memiliki faktor risiko lain (tercantum di bawah ini). Faktor risiko apa pun yang Anda miliki akan meningkatkan risiko Anda terhadap kanker payudara seiring bertambahnya usia.
+         </p>
+                  </div>
+                  <div id="BreastCancerRA_Result_ListedBelow" style="DISPLAY: none">
+                     <p class="Explanation">Menurut penilaian ini, faktor risiko Anda dan dampaknya tercantum di bawah ini. Diskusikan dengan penyedia layanan kesehatan Anda untuk meninjau semua faktor risiko Anda, tindakan yang dapat diambil, dan apa artinya dalam kasus Anda.
+         </p>
+                  </div>
+                  <div class="CalculatorBox">
+                     <div id="BreastCancerRA_Result_HighSignificance" style="DISPLAY: none">
+                        <h3>Faktor-faktor yang meningkatkan risiko Anda mengembangkan kanker payudara</h3>
+                        <ul>
+                           <li id="BreastCancerRA_Result_Age" style="DISPLAY: none">
+                     Age
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_High_FamilyHistory" style="DISPLAY: none">
+                     Riwayat keluarga
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_High_EarlyOnset" style="DISPLAY: none">
+                     Riwayat keluarga kanker payudara yang muncul pada usia dini
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_High_UterineCancer" style="DISPLAY: none">
+                     Riwayat pribadi kanker rahim
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_High_OvarianCancer" style="DISPLAY: none">
+                     Riwayat pribadi kanker ovarium
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_High_Genes" style="DISPLAY: none">
+                     Mutasi gen tertentu yang diwariskan
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_High_OtherDx" style="DISPLAY: none">
+                     Riwayat pribadi kondisi payudara tertentu yang bukan kanker. Ini termasuk karsinoma lobular in situ (LCIS), hiperplasia duktal atipikal (ADH), atau hiperplasia lobular atipikal (ALH).
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_High_Radiation" style="DISPLAY: none">
+                     Riwayat radiasi untuk mengobati kanker lain saat masih anak-anak atau remaja
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_High_BMI" style="DISPLAY: none">
+                     Kelebihan berat badan atau obesitas setelah menopause. Indeks Massa Tubuh (BMI) <span id="BreastCancerRA_BMI1" /> menempatkan Anda dalam kategori obesitas.
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_High_Alcohol" style="DISPLAY: none">
+                     Mengonsumsi minuman beralkohol. Risiko mengembangkan kanker payudara meningkat seiring dengan jumlah alkohol yang dikonsumsi. Jika Anda tidak mengonsumsi lebih dari satu minuman per hari, risiko Anda hanya meningkat sedikit. Wanita yang mengonsumsi 2 hingga 5 minuman per hari memiliki risiko sekitar 1,5 kali lipat dibandingkan wanita yang tidak mengonsumsi alkohol.
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_High_Dense" style="DISPLAY: none">
+                     Jaringan payudara yang padat (terlihat pada mamografi)
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_High_HT" style="DISPLAY: none">
+                     Saat ini menggunakan terapi hormon kombinasi (estrogen dan progesteron) untuk mengatasi gejala menopause.
+                     
+                  </li>
+                        </ul>
+                     </div>
+                     <div id="BreastCancerRA_Result_MildSignificance" style="DISPLAY: none">
+                        <h3>Faktor-faktor yang membuat Anda berisiko sedikit lebih tinggi daripada rata-rata:</h3>
+                        <ul>
+                           <li id="BreastCancerRA_Result_Mild_EthnicityCC" style="DISPLAY: none">
+                     Etnisitas. Kaukasian memiliki kejadian kanker payudara yang lebih tinggi dibandingkan dengan Afrika-Amerika.
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_Mild_EthnicityAA" style="DISPLAY: none">
+                     Etnisitas. Afrika-Amerika sebenarnya memiliki kejadian kanker payudara yang lebih rendah dibandingkan dengan Kaukasian, tetapi lebih cenderung meninggal akibat penyakit ini.
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_Mild_Smoking" style="DISPLAY: none">
+                    Merokok. Merokok berat dalam jangka panjang dapat meningkatkan risiko Anda terhadap kanker payudara. Karena merokok jelas terkait dengan banyak kanker, sangat disarankan untuk melakukan segala usaha untuk berhenti merokok.
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_Mild_ChildbirthAge" style="DISPLAY: none">
+                    Kelahiran anak pertama setelah usia 30 tahun
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_Mild_Menarche" style="DISPLAY: none">
+                     Menarche (awal menstruasi) sebelum usia 12 tahun
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_Mild_Menopause" style="DISPLAY: none">
+                    Menopause setelah usia 55 tahun
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_Mild_DES" style="DISPLAY: none">
+                     Riwayat pribadi mengonsumsi obat diethylstilbestrol (DES), atau ibu Anda mengonsumsinya saat hamil dengan Anda.
+
+                     
+                  </li>
+                           <li id="BreastCancerRA_Result_Mild_BirthControl" style="DISPLAY: none">
+                     Saat ini menggunakan kontrasepsi berbasis hormon, seperti pil kontrasepsi.
+                     
+                  </li>
+                        </ul>
+                     </div>
+                     <div id="BreastCancerRA_Result_NoRiskSignificance" style="DISPLAY: none">
+                        <h3>Your risk factors</h3>
+                        <p id="BreastCancerRA_Result_NoRiskSignificance_under45" style="DISPLAY: none">
+                  Anda terindikasi tidak ada faktor risiko untuk kanker payudara.
+                  
+               </p>
+                        <p id="BreastCancerRA_Result_NoRiskSignificance_over45" style="DISPLAY: none">
+                  Anda terindikasi tidak ada faktor risiko untuk kanker payudara selain usia.
+                  
+               </p>
+                     </div>
+                  </div>
+                  <div id="BreastCancerRA_Result_StandardText">
+                     <h3>Tentang faktor risiko dan pencegahan</h3>
+                     <p>Beberapa faktor risiko, seperti usia, riwayat kesehatan keluarga, dan tidak pernah hamil penuh, tidak dapat diubah. Namun, Anda dapat mengubah faktor risiko lainnya seperti berat badan, merokok, dan konsumsi alkohol. Jika Anda memiliki faktor risiko yang dapat diubah, pertimbangkan untuk membuat perubahan gaya hidup untuk mengurangi risiko tersebut. Anda sebaiknya menghindari alkohol, berhenti merokok, dan menurunkan berat badan jika perlu. Setelah menopause, sebaiknya hindari terapi hormon, atau gunakan dosis rendah hanya untuk waktu yang singkat. Selain itu, diet sehat dan olahraga teratur dapat membantu mengurangi risiko kanker payudara.
+         </p>
+                     <p>Sebagian besar wanita dengan kanker payudara tidak memiliki faktor risiko. Memiliki faktor risiko tidak berarti Anda akan berpotensi terkena kanker payudara. Namun, memiliki faktor risiko adalah alasan yang baik untuk mendiskusikannya dengan dokter Anda dan menjadwalkan screening secara rutin.
+         </p>
+                     <p>
+           Baik Anda memiliki faktor risiko atau tidak, penting untuk melakukan skrining kanker payudara. Berikut adalah rekomendasi dari American Cancer Society (ACS) untuk skrining pada wanita dengan risiko rata-rata untuk kanker payudara:  </p>
+                     <ul>
+                        <li>Semua wanita harus mengetahui manfaat, batasan, dan potensi bahaya dari skrining kanker payudara. Mereka juga harus mengetahui bagaimana penampilan dan kondisi payudara mereka secara normal dan segera melaporkan perubahan apa pun kepada penyedia layanan kesehatan.
+               </li>
+                        <li>Wanita usia 40 hingga 44 tahun harus memiliki pilihan untuk memulai skrining kanker payudara tahunan dengan mamografi jika mereka ingin melakukannya. Mereka juga harus mempertimbangkan resiko dan manfaatnya.              </li>
+                        <li>Wanita usia 45 hingga 54 tahun harus menjalani mamografi setiap tahun.</li>
+                        <li>Wanita usia 55 tahun ke atas harus beralih ke mamografi setiap 2 tahun, atau memiliki pilihan untuk melanjutkan skrining setiap tahun.
+               </li>
+                        <li>Skrining harus dilanjutkan selama seorang wanita dalam keadaan sehat dan diperkirakan akan hidup setidaknya 10 tahun lagi.
+               </li>
+                     </ul>
+                  </div>
+                  <p class="Disclaimer">
+                     <i>Informasi ini tidak dimaksudkan sebagai pengganti perawatan kesehatan profesional. Selalu konsultasikan dengan penyedia layanan kesehatan untuk mendapatkan nasihat mengenai kesehatan Anda. Hanya penyedia layanan kesehatan Anda yang dapat menentukan apakah Anda mengidap kanker payudara.</i>
+                  </p>
+               </div>
+         <div class="Resources" id="BreastCancerRA_Resources" style="text-align: center;">
+    <p>
+        <b>Penilaian ini tidak dimaksudkan untuk menggantikan evaluasi dari seorang profesional kesehatan.</b>
+    </p>
+</div>
+
+               <script>
+
+/****************/
+/* Generic code	*/
+/****************/
+
+// this code runs whenever the page loads
+var m_ThisCalculatorsName = "BreastCancerRA";
+var m_ExpectedNumberOfParameters = 31;
+var m_DebugMode = false;
+
+var m_CurrentQueryString = location.search.substring(1);
+var m_PreCalculationQueryString = GetPreCalculationQueryString();
+var m_Parameters = []; // this will be initialized if and when appropriate values are present in the query string
+
+m_Parameters = BreastCancerRA_ParseQueryString();
+
+// run the calculator if all the values are present for it to work on
+if(m_DebugMode) alert("Parameter length: " + m_Parameters.length);
+if(m_Parameters.length == m_ExpectedNumberOfParameters)
+{
+	try
+	{
+		// run the calculation code
+		if(m_DebugMode) alert("Trying To Calculate");
+		BreastCancerRA_Calculate();
+
+		// Then display the results
+		if(m_DebugMode) alert("Trying to DisplayResults");
+		BreastCancerRA_DisplayResults();
+	}
+	catch(exc)
+	{
+		//if(m_DebugMode) alert("Failed, resetting");
+		//BreastCancerRA_Reset();
+	}
+}
+//****** BreastCancerRA_ParseQueryString ************************//
+function BreastCancerRA_ParseQueryString()
+{
+	var calculatorPair;
+	var isFound = false;		
+	var FoundParams = [];
+	
+	//split the query and get out the params
+	if(m_CurrentQueryString.indexOf(m_ThisCalculatorsName + "_Parameters=") >= 0) 
+	{
+		var queryPairs = m_CurrentQueryString.split("&");
+		
+		for(i = 0; i < queryPairs.length && !isFound; i++) 
+		{
+			if(queryPairs[i].indexOf(m_ThisCalculatorsName + "_Parameters=") >= 0) 
+			{
+				isFound = true;
+				calculatorPair = queryPairs[i].split("=");
+				FoundParams = calculatorPair[1].split(",");
+			}
+		}
+	}
+	return FoundParams;
+}
+
+//****** GetPreCalculationQueryString ********************************//
+function GetPreCalculationQueryString()
+{
+	m_PreCalculationQueryString = "";
+
+	var tmpArray = m_CurrentQueryString.split("&"); //get the paired querystring parameters.
+
+	// look for and retain all query string values extant prior to calculator being used
+	for(x = 0; x < tmpArray.length; x++)
+	{
+		if(tmpArray[x].indexOf(m_ThisCalculatorsName + "_Parameters=") < 0) //if you dont find it, append to the newQuerystring
+		{
+			m_PreCalculationQueryString += tmpArray[x] + "&";
+		}
+	}
+	// if there were any non-calculator query string values prior to running the calc, append those to this page's url
+	return ((m_PreCalculationQueryString.length > 0) ? (m_PreCalculationQueryString.substring(0, m_PreCalculationQueryString.length-1)) : "");
+}
+
+//****** BreastCancerRA_Submit **************************************//
+function BreastCancerRA_Submit()
+{
+	if(BreastCancerRA_Validate() == true)
+	{
+		// assemble query string to be used for calculation work
+		BreastCancerRA_CreateQuerystring();
+	}
+}
+
+//****** BreastCancerRA_Reset ***************************************//
+function BreastCancerRA_Reset()
+{
+	window.location.href = location.pathname + ((m_PreCalculationQueryString.length > 0) ? ("?" + m_PreCalculationQueryString) : "");
+}
+
+/***********************************/
+/* Functions specific to this tool */
+/***********************************/
+// Global Varibles
+var Age;	
+var Ethnicity;	
+var Weight;	
+var HeightFt;	
+var HeightIn;
+var Menarche;
+var Menopause;
+var Children;
+var ChildbirthAge;
+var Alcohol;
+var Smoking;
+var Mother;
+var Daughter;
+var Sister;
+var Aunt;
+var Grandmother;
+var NoHistory;
+var Earlyonset;
+var UterineCancer;
+var OvarianCancer;
+var Genes;
+var LCIS;
+var ADH;
+var ALH;
+var OtherDx;
+var Radiation;
+var Dense;
+var HT;
+var DES;
+var BirthControl;
+
+var BMI;
+
+
+//****** BreastCancerRA_Reset ***************************************//
+function BreastCancerRA_Validate() {
+
+	var strError = "Tolong lengkapi informasi berikut:\r\n";
+	var isError = false;
+
+	var elemAge		= document.getElementById(m_ThisCalculatorsName + "_" + "Age");					//0
+	var elemEthnicityAA 	= document.getElementById(m_ThisCalculatorsName + "_Eth_AA");				//2
+	var elemEthnicityCC 	= document.getElementById(m_ThisCalculatorsName + "_Eth_CC");
+	var elemEthnicityAS 	= document.getElementById(m_ThisCalculatorsName + "_Eth_AS");
+	var elemEthnicityHI 	= document.getElementById(m_ThisCalculatorsName + "_Eth_HI");
+	var elemEthnicityOT 	= document.getElementById(m_ThisCalculatorsName + "_Eth_OT");
+	var elemWeight		= document.getElementById(m_ThisCalculatorsName + "_" + "Weight");			//3
+	var elemHeightFt	= document.getElementById(m_ThisCalculatorsName + "_" + "Height_Feet");		//4
+	var elemHeightIn	= document.getElementById(m_ThisCalculatorsName + "_" + "Height_Inches");	//5
+	var elemMenarche	= document.getElementById(m_ThisCalculatorsName + "_" + "Menarche");
+	var elemMenopause	= document.getElementById(m_ThisCalculatorsName + "_" + "Menopause");
+	var elemChildrenY	= document.getElementById(m_ThisCalculatorsName + "_" + "Children_Y");		//6
+	var elemChildrenN	= document.getElementById(m_ThisCalculatorsName + "_" + "Children_N");
+	var elemChildbirthAge	= document.getElementById(m_ThisCalculatorsName + "_" + "ChildbirthAge");
+	var elemAlcoholY	= document.getElementById(m_ThisCalculatorsName + "_" + "Alcohol_Y");		//7
+	var elemAlcoholN	= document.getElementById(m_ThisCalculatorsName + "_" + "Alcohol_N");
+	var elemSmokingY	= document.getElementById(m_ThisCalculatorsName + "_" + "Smoking_Y");		//7
+	var elemSmokingN	= document.getElementById(m_ThisCalculatorsName + "_" + "Smoking_N");
+	var elemMother		= document.getElementById(m_ThisCalculatorsName + "_" + "Mother");		//8
+	var elemDaughter	= document.getElementById(m_ThisCalculatorsName + "_" + "Daughter");
+	var elemSister		= document.getElementById(m_ThisCalculatorsName + "_" + "Sister");
+	var elemAunt		= document.getElementById(m_ThisCalculatorsName + "_" + "Aunt");		//9
+	var elemGrandmother	= document.getElementById(m_ThisCalculatorsName + "_" + "Grandmother");
+	var elemNoHistory	= document.getElementById(m_ThisCalculatorsName + "_" + "NoHistory");
+	var elemEarlyOnsetY	= document.getElementById(m_ThisCalculatorsName + "_" + "EarlyOnset_Y");
+	var elemEarlyOnsetN	= document.getElementById(m_ThisCalculatorsName + "_" + "EarlyOnset_N");
+	var elemUterineCancerY	= document.getElementById(m_ThisCalculatorsName + "_" + "UterineCancer_Y");		//7
+	var elemUterineCancerN	= document.getElementById(m_ThisCalculatorsName + "_" + "UterineCancer_N");
+	var elemOvarianCancerY	= document.getElementById(m_ThisCalculatorsName + "_" + "OvarianCancer_Y");		//7
+	var elemOvarianCancerN	= document.getElementById(m_ThisCalculatorsName + "_" + "OvarianCancer_N");
+  var elemGenesY	= document.getElementById(m_ThisCalculatorsName + "_" + "Genes_Y");
+  var elemGenesN	= document.getElementById(m_ThisCalculatorsName + "_" + "Genes_N");
+  var elemLCIS	= document.getElementById(m_ThisCalculatorsName + "_" + "LCIS");
+  var elemADH	= document.getElementById(m_ThisCalculatorsName + "_" + "ADH");
+  var elemALH	= document.getElementById(m_ThisCalculatorsName + "_" + "ALH");
+  var elemOtherDx = document.getElementById(m_ThisCalculatorsName + "_" + "OtherDx");
+  var elemRadiationY	= document.getElementById(m_ThisCalculatorsName + "_" + "Radiation_Y");
+  var elemRadiationN	= document.getElementById(m_ThisCalculatorsName + "_" + "Radiation_N");
+  var elemDenseY	= document.getElementById(m_ThisCalculatorsName + "_" + "Dense_Y");
+  var elemDenseN	= document.getElementById(m_ThisCalculatorsName + "_" + "Dense_N");
+  var elemHTY	= document.getElementById(m_ThisCalculatorsName + "_" + "HT_Y");
+  var elemHTN	= document.getElementById(m_ThisCalculatorsName + "_" + "HT_N");
+  var elemDESY	= document.getElementById(m_ThisCalculatorsName + "_" + "DES_Y");
+  var elemDESN	= document.getElementById(m_ThisCalculatorsName + "_" + "DES_N");
+  var elemBirthControlY	= document.getElementById(m_ThisCalculatorsName + "_" + "BirthControl_Y");
+  var elemBirthControlN	= document.getElementById(m_ThisCalculatorsName + "_" + "BirthControl_N");
+	
+
+	//elemAge - Check that they selected an age
+	if (elemAge.value.length != 0){ 
+		if ( isNaN(elemAge.value)){
+		strError += " - Umur\r\n";
+		isError = true;
+		}
+	}
+	else {
+		strError += " - Umur\r\n";
+		isError = true;
+	}
+
+	
+	// elemEthnicity - Check that they marked their ethinicity
+	if ( (!elemEthnicityAA.checked) && 
+		 (!elemEthnicityCC.checked) && 
+		 (!elemEthnicityAS.checked) && 
+		 (!elemEthnicityHI.checked) && 
+		 (!elemEthnicityOT.checked) ) {
+		strError += " - Etnis\r\n";
+		isError = true;		 
+	}
+	
+	// elemWeight - check the Weight box
+	if(elemWeight.value.length == 0) {
+		strError += " - Berat badan\r\n";
+		isError = true;
+	} else if( isNaN(elemWeight.value) ) {
+		strError += " - Masukkan angka untuk berat badan.\r\n";
+		isError = true;
+	}
+
+	
+	// elemHeight - check to make sure they are both valid numbers
+	if ( (elemHeightFt.value.length == 0) || (elemHeightIn.value.length == 0) ) {
+		strError += " - TInggi badan.\r\n";
+		isError = true;
+	}
+	else if( isNaN(elemHeightFt.value) || isNaN(elemHeightIn.value) ) {
+		strError += " - Masukkan angka untuk tinggi badan.\r\n";
+		isError = true;
+	}
+	else {
+		if((elemHeightIn.value + 0) > 11) {
+			var totalInches = (elemHeightFt.value * 12) + (elemHeightIn.value * 1);
+			elemHeightFt.value = Math.floor(totalInches / 12);
+			elemHeightIn.value = (totalInches % 12);
+		}
+	}
+	
+	//elemMenarche - Check that they input a menstrual cycle age 
+	//Check that Menarche value does not exceed Age
+	if (elemMenarche.value.length != 0){
+		var Me = parseInt(elemMenarche.value);
+                var A = parseInt(elemAge.value);
+		if (isNaN(elemMenarche.value) ) {
+			strError += " - Isi angka yang valid untuk pertanyaan tentang menstruasi pertama..\r\n";
+			isError = true;
+		} else if(Me > A) {
+			strError += " - Usia Anda saat menstruasi pertama tidak boleh lebih besar dari usia Anda saat ini..\r\n";
+			isError = true;
+		}
+	}
+		
+	//elemMenopause - Check if they input a menopause age 
+        //check that menopause age is less than or equal to Age
+	if (elemMenopause.value.length !=0){
+                var M = parseInt(elemMenopause.value);
+                var A = parseInt(elemAge.value);
+
+		if( isNaN(elemMenopause.value) ) {
+		strError += " - Isi angka yang valid untuk pertanyaan tentang menopause.\r\n";
+		isError = true;
+		} else if(!(M <= A) ){
+		strError += " - Usia Anda saat menopause tidak boleh lebih besar dari usia Anda saat ini\r\n";
+		isError = true;
+                }
+	}
+	
+	//elemChildrenY
+	//elemChildrenN
+	if ( (!elemChildrenY.checked) && (!elemChildrenN.checked) ) {
+		strError += " - Anda belum menjawab pertanyaan tentang memiliki anak.\r\n";
+		isError = true;	
+	}
+	
+	//elemChildbirthAge - Check if they input a childbirth age 
+        //check that box is filled out if q 7 is marked yes
+        if (elemChildrenY.checked){
+                var C = parseInt(elemChildbirthAge.value);
+                var A = parseInt(elemAge.value);
+
+                if(elemChildbirthAge.value.length == 0) {
+			strError += " - Jika Anda memiliki anak, harap masukkan usia Anda saat anak pertama Anda lahir.\r\n";
+			isError = true;}
+                else if( isNaN(elemChildbirthAge.value) ) {
+			strError += " - Isi angka yang valid untuk kolom kelahiran anak.\r\n";
+			isError = true;
+		} 
+		else if(!(C <= A) ){
+			strError += " - Usia Anda saat melahirkan anak pertama harus kurang dari atau sama dengan usia Anda saat ini..\r\n";
+			isError = true;
+                }
+        } else if(elemChildrenN.checked){
+                clearChildbirthAge();
+	}
+ 		
+	//elemAlcoholY 
+	//elemAlcoholN 
+	if ( (!elemAlcoholY.checked) && (!elemAlcoholN.checked) ) {
+		strError += " - Anda tidak menjawab pertanyaan terkait alkohol.\r\n";
+		isError = true;	
+	}
+	
+	//elemSmokingY 
+	//elemSmokingN 
+	if ( (!elemSmokingY.checked) && (!elemSmokingN.checked) ) {
+		strError += " - Anda tidak menjawab pertanyaan terkait rokok.\r\n";
+		isError = true;	
+	}
+
+	//elemMother
+	//elemDaughter
+	//elemSister	
+	//elemAunt	
+	//elemGrandmother
+	if(NothingChecked(new Array('Mother','Daughter','Sister','Aunt','Grandmother','NoHistory')))
+	{
+		strError += " - Anda belum memilih opsi apa pun tentang wanita dalam keluarga Anda..\r\n";
+		isError = true;
+	}
+
+	
+	//elemEarlyOnsetY
+	//elemEarlyOnsetN
+	if ( (!elemEarlyOnsetY.checked) && (!elemEarlyOnsetN.checked) ) {
+		strError += " - Anda belum menjawab pertanyaan tentang anggota keluarga yang menderita kanker sebelum usia 50 tahun.\r\n";
+		isError = true;	
+	}
+	
+	//elemUterineCancerY
+	//elemUterineCancerN
+	if ( (!elemUterineCancerY.checked) && (!elemUterineCancerN.checked) ) {
+		strError += " - Anda belum menjawab pertanyaan tentang kanker rahim.\r\n";
+		isError = true;	
+	}
+	
+	//elemOvarianCancerY
+	//elemOvarianCancerN
+	if ( (!elemOvarianCancerY.checked) && (!elemOvarianCancerN.checked) ) {
+		strError += " - Anda belum menjawab pertanyaan tentang kanker ovarium.\r\n";
+		isError = true;	
+	}
+  
+  //elemGenesY
+	//elemGenesN
+	if ( (!elemGenesY.checked) && (!elemGenesN.checked) ) {
+		strError += " - Anda belum menjawab pertanyaan tentang mutasi genetik.\r\n";
+		isError = true;	
+	}
+  
+  //elemLCIS
+	//elemADH
+	//elemALH	
+	if(NothingChecked(new Array('LCIS','ADH','ALH','OtherDx')))
+	{
+		strError += " - Anda belum memilih opsi apa pun tentang kondisi lain yang mungkin Anda miliki.\r\n";
+		isError = true;
+	}
+  
+  //elemRadiationY
+	//elemRadiationN
+	if ( (!elemRadiationY.checked) && (!elemRadiationN.checked) ) {
+		strError += " - Anda belum menjawab pertanyaan tentang paparan radiasi.\r\n";
+		isError = true;	
+	}
+  
+  //elemDenseY
+	//elemDenseN
+	if ( (!elemDenseY.checked) && (!elemDenseN.checked) ) {
+		strError += " - Anda belum menjawab pertanyaan tentang kepadatan payudara.\r\n";
+		isError = true;	
+	}
+  
+  //elemHTY
+	//elemHTN
+	if ( (!elemHTY.checked) && (!elemHTN.checked) ) {
+		strError += " - Anda belum menjawab pertanyaan tentang terapi hormon.\r\n";
+		isError = true;	
+	}
+  
+  //elemDESY
+	//elemDESN
+	if ( (!elemDESY.checked) && (!elemDESN.checked) ) {
+		strError += " - Anda belum menjawab pertanyaan tentang DES.\r\n";
+		isError = true;	
+	}
+  
+  //elemBirthControlY
+	//elemBirthControlN
+	if ( (!elemBirthControlY.checked) && (!elemBirthControlN.checked) ) {
+		strError += " - Anda belum menjawab pertanyaan tentang kontrasepsi.\r\n";
+		isError = true;	
+	}
+
+	
+	//if there was an error, display alert, and return to form.
+	if(isError)
+	{
+		alert(strError);
+		return false;
+	}
+	else 
+	{
+		return true;
+	}
+}
+
+//****** BreastCancerRA_CreateQuerystring **********************************//
+function BreastCancerRA_CreateQuerystring()
+{
+	//gather the answers and put them in the querystring, repost to the same page
+	var newQuerystring = m_ThisCalculatorsName + "_Parameters=";
+	
+	//Parameter Order:
+	var elemAge		= document.getElementById(m_ThisCalculatorsName + "_" + "Age");					//0
+	var elemEthnicityAA 	= document.getElementById(m_ThisCalculatorsName + "_Eth_AA");				//2
+	var elemEthnicityCC 	= document.getElementById(m_ThisCalculatorsName + "_Eth_CC");
+	var elemEthnicityAS 	= document.getElementById(m_ThisCalculatorsName + "_Eth_AS");
+	var elemEthnicityHI 	= document.getElementById(m_ThisCalculatorsName + "_Eth_HI");
+	var elemEthnicityOT 	= document.getElementById(m_ThisCalculatorsName + "_Eth_OT");
+	var elemWeight		= document.getElementById(m_ThisCalculatorsName + "_" + "Weight");			//3
+	var elemHeightFt	= document.getElementById(m_ThisCalculatorsName + "_" + "Height_Feet");		//4
+	var elemHeightIn	= document.getElementById(m_ThisCalculatorsName + "_" + "Height_Inches");	//5
+	var elemMenarche	= document.getElementById(m_ThisCalculatorsName + "_" + "Menarche");
+	var elemMenopause	= document.getElementById(m_ThisCalculatorsName + "_" + "Menopause");
+	var elemChildrenY	= document.getElementById(m_ThisCalculatorsName + "_" + "Children_Y");		//6
+	var elemChildrenN	= document.getElementById(m_ThisCalculatorsName + "_" + "Children_N");
+	var elemChildbirthAge	= document.getElementById(m_ThisCalculatorsName + "_" + "ChildbirthAge");
+	var elemAlcoholY	= document.getElementById(m_ThisCalculatorsName + "_" + "Alcohol_Y");		//7
+	var elemAlcoholN	= document.getElementById(m_ThisCalculatorsName + "_" + "Alcohol_N");
+	var elemSmokingY	= document.getElementById(m_ThisCalculatorsName + "_" + "Smoking_Y");		//7
+	var elemSmokingN	= document.getElementById(m_ThisCalculatorsName + "_" + "Smoking_N");
+	var elemMother		= document.getElementById(m_ThisCalculatorsName + "_" + "Mother");		//8
+	var elemDaughter	= document.getElementById(m_ThisCalculatorsName + "_" + "Daughter");
+	var elemSister		= document.getElementById(m_ThisCalculatorsName + "_" + "Sister");
+	var elemAunt		= document.getElementById(m_ThisCalculatorsName + "_" + "Aunt");		//9
+	var elemGrandmother	= document.getElementById(m_ThisCalculatorsName + "_" + "Grandmother");
+	var elemNoHistory	= document.getElementById(m_ThisCalculatorsName + "_" + "NoHistory");
+	var elemEarlyOnsetY	= document.getElementById(m_ThisCalculatorsName + "_" + "EarlyOnset_Y");
+	var elemEarlyOnsetN	= document.getElementById(m_ThisCalculatorsName + "_" + "EarlyOnset_N");
+	var elemUterineCancerY	= document.getElementById(m_ThisCalculatorsName + "_" + "UterineCancer_Y");		//7
+	var elemUterineCancerN	= document.getElementById(m_ThisCalculatorsName + "_" + "UterineCancer_N");
+	var elemOvarianCancerY	= document.getElementById(m_ThisCalculatorsName + "_" + "OvarianCancer_Y");		//7
+	var elemOvarianCancerN	= document.getElementById(m_ThisCalculatorsName + "_" + "OvarianCancer_N");
+  var elemOvarianCancerN	= document.getElementById(m_ThisCalculatorsName + "_" + "OvarianCancer_N");
+  var elemGenesY	= document.getElementById(m_ThisCalculatorsName + "_" + "Genes_Y");
+  var elemGenesN	= document.getElementById(m_ThisCalculatorsName + "_" + "Genes_N");
+  var elemLCIS	= document.getElementById(m_ThisCalculatorsName + "_" + "LCIS");
+  var elemADH	= document.getElementById(m_ThisCalculatorsName + "_" + "ADH");
+  var elemALH	= document.getElementById(m_ThisCalculatorsName + "_" + "ALH");
+  var elemOtherDx = document.getElementById(m_ThisCalculatorsName + "_" + "OtherDx");
+  var elemRadiationY	= document.getElementById(m_ThisCalculatorsName + "_" + "Radiation_Y");
+  var elemRadiationN	= document.getElementById(m_ThisCalculatorsName + "_" + "Radiation_N");
+  var elemDenseY	= document.getElementById(m_ThisCalculatorsName + "_" + "Dense_Y");
+  var elemDenseN	= document.getElementById(m_ThisCalculatorsName + "_" + "Dense_N");
+  var elemHTY	= document.getElementById(m_ThisCalculatorsName + "_" + "HT_Y");
+  var elemHTN	= document.getElementById(m_ThisCalculatorsName + "_" + "HT_N");
+  var elemDESY	= document.getElementById(m_ThisCalculatorsName + "_" + "DES_Y");
+  var elemDESN	= document.getElementById(m_ThisCalculatorsName + "_" + "DES_N");
+  var elemBirthControlY	= document.getElementById(m_ThisCalculatorsName + "_" + "BirthControl_Y");
+  var elemBirthControlN	= document.getElementById(m_ThisCalculatorsName + "_" + "BirthControl_N");
+	
+	
+	// elemAge
+	newQuerystring += elemAge.value + ",";
+	
+
+	//Ethnicity	
+	if ( elemEthnicityAA.checked )
+		newQuerystring += elemEthnicityAA.value;
+	else if ( elemEthnicityCC.checked )
+		newQuerystring += elemEthnicityCC.value;
+	else if ( elemEthnicityAS.checked )
+		newQuerystring += elemEthnicityAS.value;
+	else if ( elemEthnicityHI.checked )
+		newQuerystring += elemEthnicityHI.value;
+	else if ( elemEthnicityOT.checked )
+		newQuerystring += elemEthnicityOT.value;
+	newQuerystring += ",";
+
+	// elemWeight
+	newQuerystring += elemWeight.value + ",";
+	
+	//elemHeightFt
+	newQuerystring += elemHeightFt.value + ",";
+	
+	//elemHeightIn 
+	newQuerystring += elemHeightIn.value + ",";
+
+	//elemMenarche
+	newQuerystring += elemMenarche.value + ",";
+	
+	//elemMenopause
+	newQuerystring += elemMenopause.value + ",";
+	
+	//elemChildrenY
+	//elemChildrenN
+	if ( elemChildrenY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+	
+	//elemChildbirthAge
+	newQuerystring += elemChildbirthAge.value + ",";
+	
+	//elemAlcoholY 
+	//elemAlcoholN 
+	if ( elemAlcoholY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+
+	//elemSmokingY
+	//elemSmokingN
+	if ( elemSmokingY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+	
+	//elemMother
+	if ( elemMother.checked )
+		newQuerystring += "1,";
+	else
+		newQuerystring += "0,";
+	
+	//elemDaughter
+	if ( elemDaughter.checked )
+		newQuerystring += "1,";
+	else
+		newQuerystring += "0,";
+	
+	//elemSister
+	if ( elemSister.checked )
+		newQuerystring += "1,";
+	else
+		newQuerystring += "0,";
+	
+	//elemAunt
+	if ( elemAunt.checked )
+		newQuerystring += "1,";
+	else
+		newQuerystring += "0,";
+	
+	//elemGrandmother
+	if ( elemGrandmother.checked )
+		newQuerystring += "1,";
+	else
+		newQuerystring += "0,";
+	
+	//elemNoHistory
+	if ( elemNoHistory.checked )
+		newQuerystring += "1,";
+	else
+		newQuerystring += "0,";
+	
+	//elemEarlyOnsetY
+	//elemEarlyOnsetN
+	if ( elemEarlyOnsetY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+	
+	//elemUterineCancerY
+	//elemUterineCancerN
+	if ( elemUterineCancerY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+	
+	//elemOvarianCancerY
+	//elemOvarianCancerN
+	if ( elemOvarianCancerY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+    
+  //elemGenesY
+	//elemGenesN
+	if ( elemGenesY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+    
+    //elemLCIS
+	if ( elemLCIS.checked )
+		newQuerystring += "1,";
+	else
+		newQuerystring += "0,";
+	
+	//elemADH
+	if ( elemADH.checked )
+		newQuerystring += "1,";
+	else
+		newQuerystring += "0,";
+	
+	//elemALH
+	if ( elemALH.checked )
+		newQuerystring += "1,";
+	else
+		newQuerystring += "0,";
+    
+  //elemOtherDx
+	if ( elemOtherDx.checked )
+		newQuerystring += "1,";
+	else
+		newQuerystring += "0,";
+    
+  //elemRadiationY
+	//elemRadiationN
+	if ( elemRadiationY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+    
+  //elemDenseY
+	//elemDenseN
+	if ( elemDenseY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+    
+  //elemHTY
+	//elemHTN
+	if ( elemHTY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+    
+  //elemDESY
+	//elemDESN
+	if ( elemDESY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+    
+  //elemBirthControlY
+	//elemBirthControlN
+	if ( elemBirthControlY.checked )
+		newQuerystring += "Y,";
+	else
+		newQuerystring += "N,";
+		
+	//auto navigate to the results section
+	//newQuerystring += "#Results";
+	
+	if(m_PreCalculationQueryString.length > 0) {
+		window.location.href = location.pathname + "?" + m_PreCalculationQueryString + "&" + newQuerystring;
+	} else {
+		window.location.href = location.pathname + "?" + newQuerystring;
+	}
+}
+
+//****** BreastCancerRA_Calculate *******************************************//
+function BreastCancerRA_Calculate() {
+	var magicNumber = 703.0;
+	var HeightInInches = 0;
+	
+	//Parameter Order:	
+	Age		= m_Parameters[0];  //0
+	Ethnicity	= m_Parameters[1];
+	Weight		= m_Parameters[2];
+	HeightFt	= m_Parameters[3];
+	HeightIn	= m_Parameters[4];
+	Menarche	= m_Parameters[5];
+	Menopause	= m_Parameters[6];
+	Children	= m_Parameters[7];
+	ChildbirthAge	= m_Parameters[8];
+	Alcohol		= m_Parameters[9];
+	Smoking		= m_Parameters[10];
+	Mother		= m_Parameters[11];
+	Daughter	= m_Parameters[12];
+	Sister		= m_Parameters[13];
+	Aunt		= m_Parameters[14];
+	Grandmother	= m_Parameters[15];
+	NoHistory	= m_Parameters[16];
+	EarlyOnset	= m_Parameters[17];
+	UterineCancer	= m_Parameters[18];
+	OvarianCancer	= m_Parameters[19];
+  Genes	= m_Parameters[20];
+  LCIS	= m_Parameters[21];
+  ADH	= m_Parameters[22];
+  ALH	= m_Parameters[23];
+  OtherDx = m_Parameters[24];
+  Radiation	= m_Parameters[25];
+  Dense	= m_Parameters[26];
+  HT	= m_Parameters[27];
+  DES	= m_Parameters[28];
+  BirthControl	= m_Parameters[29];
+	
+	HeightInInches = (HeightFt*12) + (HeightIn*1);
+	BMI = (Weight/Math.pow(HeightInInches,2)) * magicNumber;
+	BMI = Math.round(BMI);
+}
+
+//****** BreastCancerRA_DisplayResults *************************************//
+function BreastCancerRA_DisplayResults() {
+	BreastCancerRA_RePopulateCalculator();
+	document.getElementById("BreastCancerRA_Form").style.display = "none";
+	BreastCancerRA_DisplayResult("Results");
+	if ( Age < 17 )
+	{
+		BreastCancerRA_DisplayResult("Result_AgeFactor_16");
+		BreastCancerRA_DisplayResult("Result_Under17About");
+		BreastCancerRA_DisplayResult("Result_Under45GreatestRisk");
+	}
+	else if ( (Age >= 17) && (Age < 45) )
+	{
+		BreastCancerRA_DisplayResult("Result_AgeFactor_44");
+		BreastCancerRA_DisplayResult("Result_Under45About");
+	}
+	
+	
+	// Just populate all of the age span tags. Need to return
+	
+	BreastCancerRA_SetValue("BMI1", BMI + " ");
+	//BreastCancerRA_SetValue("BMI2", BMI + " ");
+	
+	
+	// Risk factors of high significance
+	var HighRisk = false;
+	
+	if (Mother == 1)
+	{
+		BreastCancerRA_DisplayResult("Result_High_FamilyHistory");
+		HighRisk = true;
+	}
+	
+	if (Sister == 1)
+	{
+		BreastCancerRA_DisplayResult("Result_High_FamilyHistory");
+		HighRisk = true;
+	}
+	
+	if (Aunt == 1)
+	{
+		BreastCancerRA_DisplayResult("Result_High_FamilyHistory");
+		HighRisk = true;
+	}
+	
+	if (Daughter == 1)
+	{
+		BreastCancerRA_DisplayResult("Result_High_FamilyHistory");
+		HighRisk = true;
+	}
+	
+	if (Grandmother == 1)
+	{
+		BreastCancerRA_DisplayResult("Result_High_FamilyHistory");
+		HighRisk = true;
+	}
+	
+	if (EarlyOnset == 'Y')
+	{
+		BreastCancerRA_DisplayResult("Result_High_EarlyOnset");
+		HighRisk = true;
+	}
+	
+	if (UterineCancer == 'Y')
+	{
+		BreastCancerRA_DisplayResult("Result_High_UterineCancer");
+		HighRisk = true;
+	}
+	
+	if (OvarianCancer == 'Y')
+	{
+		BreastCancerRA_DisplayResult("Result_High_OvarianCancer");
+		HighRisk = true;
+	}
+	
+  if (Genes == 'Y')
+	{
+		BreastCancerRA_DisplayResult("Result_High_Genes");
+		HighRisk = true;
+	}
+  
+  if (LCIS == 1)
+	{
+		BreastCancerRA_DisplayResult("Result_High_OtherDx");
+		HighRisk = true;
+	}
+  
+  if (ADH == 1)
+	{
+		BreastCancerRA_DisplayResult("Result_High_OtherDx");
+		HighRisk = true;
+	}
+  
+  if (ALH == 1)
+	{
+		BreastCancerRA_DisplayResult("Result_High_OtherDx");
+		HighRisk = true;
+	}
+  
+  if (Radiation == 'Y')
+	{
+		BreastCancerRA_DisplayResult("Result_High_Radiation");
+		HighRisk = true;
+	}
+  
+  if ( BMI >= 30 ) 
+	{
+		BreastCancerRA_DisplayResult("Result_High_BMI");
+		HighRisk = true;			
+	}
+	
+	if ( Alcohol == 'Y' ) 
+	{
+		BreastCancerRA_DisplayResult("Result_High_Alcohol");
+		HighRisk = true;						
+	}
+  
+  if (Dense == 'Y')
+	{
+		BreastCancerRA_DisplayResult("Result_High_Dense");
+		HighRisk = true;
+	}
+  
+  if (HT == 'Y')
+	{
+		BreastCancerRA_DisplayResult("Result_High_HT");
+		HighRisk = true;
+	}
+  
+	if (HighRisk == true)
+		BreastCancerRA_DisplayResult("Result_HighSignificance");
+
+
+  // Risk factors of mild significance
+	var MildRisk = false;
+	
+	if ( ChildbirthAge >= 40 ) 
+	{
+		BreastCancerRA_DisplayResult("Result_Mild_ChildbirthAge");
+		MildRisk = true;			
+	}
+	
+		if (Ethnicity=='CC') 
+	{
+		BreastCancerRA_DisplayResult("Result_Mild_EthnicityCC");
+		MildRisk = true;			
+	}
+	
+	if (Ethnicity=='AA') 
+	{
+		BreastCancerRA_DisplayResult("Result_Mild_EthnicityAA");
+		MildRisk = true;			
+	}
+	
+	//	if ((BMI >= 25 ) && (BMI < 30 )) 
+	//{
+	//	BreastCancerRA_DisplayResult("Result_Mild_BMI");
+//		MildRisk = true;			
+//	}
+	
+	if ( Smoking == 'Y' ) 
+	{
+		BreastCancerRA_DisplayResult("Result_Mild_Smoking");
+		MildRisk = true;						
+	}
+	
+	if ((ChildbirthAge >= 30) && (ChildbirthAge < 40)) 
+	{
+		BreastCancerRA_DisplayResult("Result_Mild_ChildbirthAge");
+		MildRisk = true;			
+	}
+	
+	if (Menarche < 12) 
+	{
+		BreastCancerRA_DisplayResult("Result_Mild_Menarche");
+		MildRisk = true;			
+	}
+	
+	if (Menopause > 55) 
+	{
+		BreastCancerRA_DisplayResult("Result_Mild_Menopause");
+		MildRisk = true;			
+	}
+  
+  if ( DES == 'Y' ) 
+	{
+		BreastCancerRA_DisplayResult("Result_Mild_DES");
+		MildRisk = true;						
+	}
+  
+  if ( BirthControl == 'Y' ) 
+	{
+		BreastCancerRA_DisplayResult("Result_Mild_BirthControl");
+		MildRisk = true;						
+	}
+	
+	if (MildRisk == true)
+		BreastCancerRA_DisplayResult("Result_MildSignificance");
+		
+	
+		
+	// This logic is to determine which Age, RiskAbout and GreatestRisk elements to display. Elements for ages 
+	// less than 45 were displayed only on the basis of age. The logic appears at the beginning of the 
+	// DisplayResults section.
+	// Logic to display the Result_NoRiskSignificance section
+	if (HighRisk == false && MildRisk == false){
+		
+		BreastCancerRA_DisplayResult("Result_NoRiskSignificance");
+		
+		if (Age < 45)
+			BreastCancerRA_DisplayResult("Result_NoRiskSignificance_under45");
+		else if ((Age >= 45) && (Age < 65)){
+			BreastCancerRA_DisplayResult("Result_Over45NoRiskAbout");
+			BreastCancerRA_DisplayResult("Result_NoRiskSignificance_over45");
+			BreastCancerRA_DisplayResult("Result_Over45GreatestRisk_NoRisk");
+		}
+		else if (Age >= 65){
+			BreastCancerRA_DisplayResult("Result_Over65NoRiskAbout");
+			BreastCancerRA_DisplayResult("Result_NoRiskSignificance_over45");
+			BreastCancerRA_DisplayResult("Result_Over65GreatestRisk_NoRisk");
+		}
+	}
+	else if (HighRisk == true || MildRisk == true){
+		
+		BreastCancerRA_DisplayResult("Result_ListedBelow");
+		
+		if ((Age >= 45) && (Age < 65)){
+			//BreastCancerRA_DisplayResult("Result_Over45ModerateAbout");
+			BreastCancerRA_DisplayResult("Result_Over45GreatestRisk_WithRisk");
+		}
+		else if (Age >= 65){
+			BreastCancerRA_DisplayResult("Result_Over65HighAbout");
+			BreastCancerRA_DisplayResult("Result_Over45GreatestRisk_WithRisk");
+		}
+	}
+
+	
+	BreastCancerRA_DisplayResult("reset");
+}
+
+//****** BreastCancerRA_RePopulateCalculator *******************************//
+function BreastCancerRA_RePopulateCalculator() {
+
+	var elemAge		= document.getElementById(m_ThisCalculatorsName + "_" + "Age");					//0
+	var elemEthnicityAA 	= document.getElementById(m_ThisCalculatorsName + "_Eth_AA");				//2
+	var elemEthnicityCC 	= document.getElementById(m_ThisCalculatorsName + "_Eth_CC");
+	var elemEthnicityAS 	= document.getElementById(m_ThisCalculatorsName + "_Eth_AS");
+	var elemEthnicityHI 	= document.getElementById(m_ThisCalculatorsName + "_Eth_HI");
+	var elemEthnicityOT 	= document.getElementById(m_ThisCalculatorsName + "_Eth_OT");
+	var elemWeight		= document.getElementById(m_ThisCalculatorsName + "_" + "Weight");			//3
+	var elemHeightFt	= document.getElementById(m_ThisCalculatorsName + "_" + "Height_Feet");		//4
+	var elemHeightIn	= document.getElementById(m_ThisCalculatorsName + "_" + "Height_Inches");	//5
+	var elemMenarche	= document.getElementById(m_ThisCalculatorsName + "_" + "Menarche");
+	var elemMenopause	= document.getElementById(m_ThisCalculatorsName + "_" + "Menopause");
+	var elemChildrenY	= document.getElementById(m_ThisCalculatorsName + "_" + "Children_Y");		//6
+	var elemChildrenN	= document.getElementById(m_ThisCalculatorsName + "_" + "Children_N");
+	var elemChildbirthAge	= document.getElementById(m_ThisCalculatorsName + "_" + "ChildbirthAge");
+	var elemAlcoholY	= document.getElementById(m_ThisCalculatorsName + "_" + "Alcohol_Y");		//7
+	var elemAlcoholN	= document.getElementById(m_ThisCalculatorsName + "_" + "Alcohol_N");
+	var elemSmokingY	= document.getElementById(m_ThisCalculatorsName + "_" + "Smoking_Y");		//7
+	var elemSmokingN	= document.getElementById(m_ThisCalculatorsName + "_" + "Smoking_N");
+	var elemMother		= document.getElementById(m_ThisCalculatorsName + "_" + "Mother");		//8
+	var elemDaughter	= document.getElementById(m_ThisCalculatorsName + "_" + "Daughter");
+	var elemSister		= document.getElementById(m_ThisCalculatorsName + "_" + "Sister");
+	var elemAunt		= document.getElementById(m_ThisCalculatorsName + "_" + "Aunt");		//9
+	var elemGrandmother	= document.getElementById(m_ThisCalculatorsName + "_" + "Grandmother");
+	var elemNoHistory	= document.getElementById(m_ThisCalculatorsName + "_" + "NoHistory");
+	var elemEarlyOnsetY	= document.getElementById(m_ThisCalculatorsName + "_" + "EarlyOnset_Y");
+	var elemEarlyOnsetN	= document.getElementById(m_ThisCalculatorsName + "_" + "EarlyOnset_N");
+	var elemUterineCancerY	= document.getElementById(m_ThisCalculatorsName + "_" + "UterineCancer_Y");		//7
+	var elemUterineCancerN	= document.getElementById(m_ThisCalculatorsName + "_" + "UterineCancer_N");
+	var elemOvarianCancerY	= document.getElementById(m_ThisCalculatorsName + "_" + "OvarianCancer_Y");		//7
+	var elemOvarianCancerN	= document.getElementById(m_ThisCalculatorsName + "_" + "OvarianCancer_N");
+  var elemGenesY	= document.getElementById(m_ThisCalculatorsName + "_" + "Genes_Y");
+  var elemGenesN	= document.getElementById(m_ThisCalculatorsName + "_" + "Genes_N");
+  var elemLCIS	= document.getElementById(m_ThisCalculatorsName + "_" + "LCIS");
+  var elemADH	= document.getElementById(m_ThisCalculatorsName + "_" + "ADH");
+  var elemALH	= document.getElementById(m_ThisCalculatorsName + "_" + "ALH");
+  var elemOtherDx = document.getElementById(m_ThisCalculatorsName + "_" + "OtherDx");
+  var elemRadiationY	= document.getElementById(m_ThisCalculatorsName + "_" + "Radiation_Y");
+  var elemRadiationN	= document.getElementById(m_ThisCalculatorsName + "_" + "Radiation_N");
+  var elemDenseY	= document.getElementById(m_ThisCalculatorsName + "_" + "Dense_Y");
+  var elemDenseN	= document.getElementById(m_ThisCalculatorsName + "_" + "Dense_N");
+  var elemHTY	= document.getElementById(m_ThisCalculatorsName + "_" + "HT_Y");
+  var elemHTN	= document.getElementById(m_ThisCalculatorsName + "_" + "HT_N");
+  var elemDESY	= document.getElementById(m_ThisCalculatorsName + "_" + "DES_Y");
+  var elemDESN	= document.getElementById(m_ThisCalculatorsName + "_" + "DES_N");
+  var elemBirthControlY	= document.getElementById(m_ThisCalculatorsName + "_" + "BirthControl_Y");
+  var elemBirthControlN	= document.getElementById(m_ThisCalculatorsName + "_" + "BirthControl_N");
+	
+	// Age
+	elemAge.value = Age;
+	
+	// Ethnicity
+	if ( Ethnicity == 'AA' )
+		elemEthnicityAA.checked = true;
+	else if ( Ethnicity == 'CC' )
+		elemEthnicityCC.checked = true;
+	else if ( Ethnicity == 'AS' )
+		elemEthnicityAS.checked = true;
+	else if ( Ethnicity == 'HI' )
+		elemEthnicityHI.checked = true;
+	else if ( Ethnicity == 'OT' )
+		elemEthnicityOT.checked = true;
+
+	// Weight & Height
+	elemWeight.value = Weight;
+	elemHeightFt.value = HeightFt;
+	elemHeightIn.value = HeightIn;
+
+	// Menarche
+	elemMenarche.value = Menarche;
+	
+	// Menopause
+	elemMenopause.value = Menopause;
+			
+	// Children
+	if ( Children == 'Y' )
+		elemChildrenY.checked = true;
+	else
+		elemChildrenN.checked = true;				
+	
+	// ChildbirthAge
+	elemChildbirthAge.value = ChildbirthAge;
+			
+	// Alcohol
+	if ( Alcohol == 'Y' )
+		elemAlcoholY.checked = true;
+	else
+		elemAlcoholN.checked = true;	
+		
+	// Smoking
+	if ( Smoking == 'Y' )
+		elemSmokingY.checked = true;
+	else
+		elemSmokingN.checked = true;				
+
+	// Mother
+	if ( Mother == 1 )
+		elemMother.checked = true;
+	
+	if ( Daughter == 1 )
+		elemDaughter.checked = true;
+	
+	if ( Sister == 1 )
+		elemSister.checked = true;
+		
+	if ( Aunt == 1 )
+		elemAunt.checked = true;
+	
+	if ( Grandmother == 1 )
+		elemGrandmother.checked = true;
+		
+	if ( NoHistory == 1 )
+		elemNoHistory.checked = true;
+
+	// EarlyOnset
+	if ( EarlyOnset == 'Y' )
+		elemEarlyOnsetY.checked = true;
+	else
+		elemEarlyOnsetN.checked = true;
+	
+	// UterineCancer
+	if ( UterineCancer == 'Y' )
+		elemUterineCancerY.checked = true;
+	else
+		elemUterineCancerN.checked = true;
+	
+	// OvarianCancer
+	if ( OvarianCancer == 'Y' )
+		elemOvarianCancerY.checked = true;
+	else
+		elemOvarianCancerN.checked = true;
+    
+    // Genes
+	if ( Genes == 'Y' )
+		elemGenesY.checked = true;
+	else
+		elemGenesN.checked = true;
+    
+    // LCIS
+	if ( LCIS == 1 )
+		elemLCIS.checked = true;
+	
+	if ( ADH == 1 )
+		elemADH.checked = true;
+	
+	if ( ALH == 1 )
+		elemALH.checked = true;
+    
+    if ( OtherDx == 1 )
+		elemOtherDx.checked = true;
+    
+    // Radiation
+	if ( Radiation == 'Y' )
+		elemRadiationY.checked = true;
+	else
+		elemRadiationN.checked = true;
+    
+    // Dense
+	if ( Dense == 'Y' )
+		elemDenseY.checked = true;
+	else
+		elemDenseN.checked = true;
+    
+    // HT
+	if ( HT == 'Y' )
+		elemHTY.checked = true;
+	else
+		elemHTN.checked = true;
+    
+    // DES
+	if ( DES == 'Y' )
+		elemDESY.checked = true;
+	else
+		elemDESN.checked = true;
+    
+    // BirthControl
+	if ( BirthControl == 'Y' )
+		elemBirthControlY.checked = true;
+	else
+		elemBirthControlN.checked = true;
+	
+	
+}
+
+//****** BreastCancerRA_DisplayResult *********************************//
+function BreastCancerRA_DisplayResult(ResultName) {
+	try {
+		document.getElementById(m_ThisCalculatorsName + "_" + ResultName).style.display = "";
+	} catch (ex) {
+		alert("Error while trying to display " + m_ThisCalculatorsName + "_" + ResultName);
+	}
+}
+
+function clearCheckBoxes(arrayOfCheckBoxesToClear)
+{
+	for(var i = 0; i < arrayOfCheckBoxesToClear.length; i++)
+		BreastCancerRA_ReturnElement(arrayOfCheckBoxesToClear[i]).checked = false;
+	
+}
+
+function clearChildbirthAge()
+{
+        var elemChildbirthAge	= document.getElementById(m_ThisCalculatorsName + "_" + "ChildbirthAge");
+        elemChildbirthAge.value = "";
+}
+
+function BreastCancerRA_ReturnElement(name)
+{
+	return document.getElementById(m_ThisCalculatorsName + "_" + name);
+}
+
+function NothingChecked(arrayOfCheckBoxes)
+{
+	var nothingChecked = true;
+	for(var i = 0; i < arrayOfCheckBoxes.length && nothingChecked == true; i++)
+	{
+		if(BreastCancerRA_ReturnElement(arrayOfCheckBoxes[i]).checked == true)
+			nothingChecked = false;
+	}
+	return nothingChecked;
+}
+
+
+//****** BreastCancerRA_DisplayResult *********************************//
+function BreastCancerRA_SetValue(ObjectId, Value) {
+	try {
+		document.getElementById(m_ThisCalculatorsName + "_" + ObjectId).innerHTML = Value;
+	} catch (ex) {
+		alert("Unknown element: " + m_ThisCalculatorsName + "_" + ObjectId);
+	}
+}
+
+
+--></script>
+            
+</html>
+
+
